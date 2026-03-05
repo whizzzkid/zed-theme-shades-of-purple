@@ -1,0 +1,48 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    name: Create Release
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install jsonschema-cli
+        run: cargo install jsonschema-cli
+
+      - name: Validate theme against Zed schema
+        run: jsonschema --instance themes/shades-of-purple.json https://zed.dev/schema/themes/v0.2.0.json
+
+      - name: Extract version from tag
+        id: version
+        env:
+          GIT_TAG: ${{ github.ref_name }}
+        run: echo "version=${GIT_TAG#v}" >> "$GITHUB_OUTPUT"
+
+      - name: Verify version matches extension.toml
+        env:
+          EXPECTED_VERSION: ${{ steps.version.outputs.version }}
+        run: |
+          TOML_VERSION=$(grep '^version = ' extension.toml | sed 's/version = "\(.*\)"/\1/')
+          if [ "$TOML_VERSION" != "$EXPECTED_VERSION" ]; then
+            echo "Version mismatch: tag=$EXPECTED_VERSION extension.toml=$TOML_VERSION"
+            exit 1
+          fi
+          echo "Version match: $TOML_VERSION"
+
+      - name: Create GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG_NAME: ${{ github.ref_name }}
+        run: |
+          gh release create "$TAG_NAME" \
+            --title "Shades of Purple $TAG_NAME" \
+            --generate-notes
