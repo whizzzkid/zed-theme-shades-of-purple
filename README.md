@@ -47,23 +47,23 @@ The best of both worlds: ultra-dark backgrounds from Super Dark combined with th
 
 | Color | Hex | Usage |
 |-------|-----|-------|
-| ![#2D2B55](https://via.placeholder.com/15/2D2B55/2D2B55) | `#2D2B55` | Editor Background |
-| ![#1E1E3F](https://via.placeholder.com/15/1E1E3F/1E1E3F) | `#1E1E3F` | Sidebar/Panel Background |
-| ![#A599E9](https://via.placeholder.com/15/A599E9/A599E9) | `#A599E9` | Muted Text / UI Foreground |
-| ![#FF9D00](https://via.placeholder.com/15/FF9D00/FF9D00) | `#FF9D00` | Keywords / Operators |
-| ![#FAD000](https://via.placeholder.com/15/FAD000/FAD000) | `#FAD000` | Functions / Attributes / Accent |
-| ![#A5FF90](https://via.placeholder.com/15/A5FF90/A5FF90) | `#A5FF90` | Strings |
-| ![#3AD900](https://via.placeholder.com/15/3AD900/3AD900) | `#3AD900` | Template Strings / Success |
-| ![#FF628C](https://via.placeholder.com/15/FF628C/FF628C) | `#FF628C` | Constants / Numbers |
-| ![#FB94FF](https://via.placeholder.com/15/FB94FF/FB94FF) | `#FB94FF` | Function Definitions |
-| ![#9EFFFF](https://via.placeholder.com/15/9EFFFF/9EFFFF) | `#9EFFFF` | Types / Tags / Variables |
-| ![#FFEE80](https://via.placeholder.com/15/FFEE80/FFEE80) | `#FFEE80` | Properties |
-| ![#B362FF](https://via.placeholder.com/15/B362FF/B362FF) | `#B362FF` | Comments |
-| ![#80FFBB](https://via.placeholder.com/15/80FFBB/80FFBB) | `#80FFBB` | Enums / Support |
-| ![#E1EFFF](https://via.placeholder.com/15/E1EFFF/E1EFFF) | `#E1EFFF` | Variables / Punctuation |
-| ![#6943FF](https://via.placeholder.com/15/6943FF/6943FF) | `#6943FF` | Info / Hints |
-| ![#EC3A37](https://via.placeholder.com/15/EC3A37/EC3A37) | `#EC3A37` | Errors / Deleted |
-| ![#FF7200](https://via.placeholder.com/15/FF7200/FF7200) | `#FF7200` | Conflicts / Search Match |
+| ![](https://img.shields.io/badge/%20-2D2B55?style=flat-square&color=2D2B55) | `#2D2B55` | Editor Background |
+| ![](https://img.shields.io/badge/%20-1E1E3F?style=flat-square&color=1E1E3F) | `#1E1E3F` | Sidebar/Panel Background |
+| ![](https://img.shields.io/badge/%20-A599E9?style=flat-square&color=A599E9) | `#A599E9` | Muted Text / UI Foreground |
+| ![](https://img.shields.io/badge/%20-FF9D00?style=flat-square&color=FF9D00) | `#FF9D00` | Keywords / Operators |
+| ![](https://img.shields.io/badge/%20-FAD000?style=flat-square&color=FAD000) | `#FAD000` | Functions / Attributes / Accent |
+| ![](https://img.shields.io/badge/%20-A5FF90?style=flat-square&color=A5FF90) | `#A5FF90` | Strings |
+| ![](https://img.shields.io/badge/%20-3AD900?style=flat-square&color=3AD900) | `#3AD900` | Template Strings / Success |
+| ![](https://img.shields.io/badge/%20-FF628C?style=flat-square&color=FF628C) | `#FF628C` | Constants / Numbers |
+| ![](https://img.shields.io/badge/%20-FB94FF?style=flat-square&color=FB94FF) | `#FB94FF` | Function Definitions |
+| ![](https://img.shields.io/badge/%20-9EFFFF?style=flat-square&color=9EFFFF) | `#9EFFFF` | Types / Tags / Variables |
+| ![](https://img.shields.io/badge/%20-FFEE80?style=flat-square&color=FFEE80) | `#FFEE80` | Properties |
+| ![](https://img.shields.io/badge/%20-B362FF?style=flat-square&color=B362FF) | `#B362FF` | Comments |
+| ![](https://img.shields.io/badge/%20-80FFBB?style=flat-square&color=80FFBB) | `#80FFBB` | Enums / Support |
+| ![](https://img.shields.io/badge/%20-E1EFFF?style=flat-square&color=E1EFFF) | `#E1EFFF` | Variables / Punctuation |
+| ![](https://img.shields.io/badge/%20-6943FF?style=flat-square&color=6943FF) | `#6943FF` | Info / Hints |
+| ![](https://img.shields.io/badge/%20-EC3A37?style=flat-square&color=EC3A37) | `#EC3A37` | Errors / Deleted |
+| ![](https://img.shields.io/badge/%20-FF7200?style=flat-square&color=FF7200) | `#FF7200` | Conflicts / Search Match |
 
 ## Feature Parity: VS Code Original vs Zed Port
 
