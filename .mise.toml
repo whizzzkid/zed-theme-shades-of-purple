@@ -1,0 +1,3 @@
+[tools]
+"cargo:jsonschema-cli" = "latest"
+lefthook = "latest"
