@@ -1,8 +1,15 @@
 # Shades of Purple for Zed
 
+[![CI](https://github.com/whizzzkid/zed-theme-shades-of-purple/actions/workflows/ci.yml/badge.svg)](https://github.com/whizzzkid/zed-theme-shades-of-purple/actions/workflows/ci.yml)
+[![GitHub stars](https://img.shields.io/github/stars/whizzzkid/zed-theme-shades-of-purple)](https://github.com/whizzzkid/zed-theme-shades-of-purple/stargazers)
+[![License: MIT](https://img.shields.io/github/license/whizzzkid/zed-theme-shades-of-purple)](LICENSE)
+[![GitHub release](https://img.shields.io/github/v/release/whizzzkid/zed-theme-shades-of-purple)](https://github.com/whizzzkid/zed-theme-shades-of-purple/releases)
+
 > A professional theme suite with hand-picked & bold shades of purple for your Zed editor and terminal.
 
 Ported from the popular [Shades of Purple](https://github.com/ahmadawais/shades-of-purple-vscode) VS Code theme by Ahmad Awais.
+
+![Shades of Purple in Zed](screenshots/shades-of-purple.png)
 
 ## Installation
 
