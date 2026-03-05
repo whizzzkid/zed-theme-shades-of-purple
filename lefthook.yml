@@ -1,4 +1,6 @@
 pre-push:
   commands:
     validate-theme-schema:
-      run: jsonschema --instance themes/shades-of-purple.json https://zed.dev/schema/themes/v0.2.0.json
+      run: >
+        curl -sL https://zed.dev/schema/themes/v0.2.0.json -o /tmp/zed-theme-schema.json &&
+        jsonschema-cli -i themes/shades-of-purple.json /tmp/zed-theme-schema.json

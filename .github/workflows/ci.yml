@@ -16,8 +16,11 @@ jobs:
       - name: Install jsonschema-cli
         run: cargo install jsonschema-cli
 
+      - name: Download Zed theme schema
+        run: curl -sL https://zed.dev/schema/themes/v0.2.0.json -o /tmp/zed-theme-schema.json
+
       - name: Validate theme against Zed schema
-        run: jsonschema --instance themes/shades-of-purple.json https://zed.dev/schema/themes/v0.2.0.json
+        run: jsonschema-cli -i themes/shades-of-purple.json /tmp/zed-theme-schema.json
 
       - name: Verify extension.toml required fields
         run: |
