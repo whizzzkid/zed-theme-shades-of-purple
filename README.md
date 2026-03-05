@@ -32,6 +32,10 @@ For those who prefer even darker backgrounds. Editor background drops to `#19183
 
 Same colors as Standard, with italic styling on keywords, comments, properties, attributes, and other semantic tokens. Pairs beautifully with fonts that have cursive italics (Operator Mono, Dank Mono, Cartograph CF, etc.).
 
+### Shades of Purple (Super Dark + Italic)
+
+The best of both worlds: ultra-dark backgrounds from Super Dark combined with the italic styling from the Italic variant.
+
 ## Color Palette
 
 | Color | Hex | Usage |
