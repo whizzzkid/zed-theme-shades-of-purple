@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    name: Validate Theme
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install jsonschema-cli
+        run: cargo install jsonschema-cli
+
+      - name: Validate theme against Zed schema
+        run: jsonschema --instance themes/shades-of-purple.json https://zed.dev/schema/themes/v0.2.0.json
+
+      - name: Verify extension.toml required fields
+        run: |
+          grep -q '^id = ' extension.toml
+          grep -q '^name = ' extension.toml
+          grep -q '^version = ' extension.toml
+          grep -q '^schema_version = ' extension.toml
+          echo "extension.toml fields OK"
