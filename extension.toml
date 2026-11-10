@@ -1,7 +1,7 @@
 id = "shades-of-purple"
 name = "Shades of Purple"
 schema_version = 1
-version = "0.1.0"
+version = "0.2.0"
 authors = ["whizzzkid <me@nishantarora.in>"]
 description = "A professional theme suite with hand-picked & bold shades of purple for your Zed editor and terminal."
 repository = "https://github.com/whizzzkid/zed-theme-shades-of-purple"
