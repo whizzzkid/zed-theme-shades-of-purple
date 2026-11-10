@@ -4,7 +4,7 @@
   "author": "whizzzkid <me@nishantarora.in>",
   "themes": [
     {
-      "name": "Shades of Purple",
+      "name": "All Shades of Purple",
       "appearance": "dark",
       "style": {
         "background.appearance": "opaque",
@@ -306,7 +306,7 @@
       }
     },
     {
-      "name": "Shades of Purple - 05%",
+      "name": "All Shades of Purple - 05%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -608,7 +608,7 @@
       }
     },
     {
-      "name": "Shades of Purple - 10%",
+      "name": "All Shades of Purple - 10%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -910,7 +910,7 @@
       }
     },
     {
-      "name": "Shades of Purple - 15%",
+      "name": "All Shades of Purple - 15%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -1212,7 +1212,7 @@
       }
     },
     {
-      "name": "Shades of Purple - 20%",
+      "name": "All Shades of Purple - 20%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -1514,7 +1514,7 @@
       }
     },
     {
-      "name": "Shades of Purple - 25%",
+      "name": "All Shades of Purple - 25%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -1816,7 +1816,7 @@
       }
     },
     {
-      "name": "Shades of Purple - 30%",
+      "name": "All Shades of Purple - 30%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -2118,7 +2118,7 @@
       }
     },
     {
-      "name": "Shades of Purple - 35%",
+      "name": "All Shades of Purple - 35%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -2420,7 +2420,7 @@
       }
     },
     {
-      "name": "Shades of Purple - 40%",
+      "name": "All Shades of Purple - 40%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -2722,7 +2722,7 @@
       }
     },
     {
-      "name": "Shades of Purple - 45%",
+      "name": "All Shades of Purple - 45%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -3024,7 +3024,7 @@
       }
     },
     {
-      "name": "Shades of Purple - 50%",
+      "name": "All Shades of Purple - 50%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -3326,7 +3326,7 @@
       }
     },
     {
-      "name": "Shades of Purple - 55%",
+      "name": "All Shades of Purple - 55%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -3628,7 +3628,7 @@
       }
     },
     {
-      "name": "Shades of Purple - 60%",
+      "name": "All Shades of Purple - 60%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -3930,7 +3930,7 @@
       }
     },
     {
-      "name": "Shades of Purple - 65%",
+      "name": "All Shades of Purple - 65%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -4232,7 +4232,7 @@
       }
     },
     {
-      "name": "Shades of Purple - 70%",
+      "name": "All Shades of Purple - 70%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -4534,7 +4534,7 @@
       }
     },
     {
-      "name": "Shades of Purple - 75%",
+      "name": "All Shades of Purple - 75%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -4836,7 +4836,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark)",
+      "name": "All Shades of Purple (Super Dark)",
       "appearance": "dark",
       "style": {
         "background.appearance": "opaque",
@@ -5138,7 +5138,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark) - 05%",
+      "name": "All Shades of Purple (Super Dark) - 05%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -5440,7 +5440,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark) - 10%",
+      "name": "All Shades of Purple (Super Dark) - 10%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -5742,7 +5742,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark) - 15%",
+      "name": "All Shades of Purple (Super Dark) - 15%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -6044,7 +6044,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark) - 20%",
+      "name": "All Shades of Purple (Super Dark) - 20%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -6346,7 +6346,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark) - 25%",
+      "name": "All Shades of Purple (Super Dark) - 25%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -6648,7 +6648,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark) - 30%",
+      "name": "All Shades of Purple (Super Dark) - 30%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -6950,7 +6950,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark) - 35%",
+      "name": "All Shades of Purple (Super Dark) - 35%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -7252,7 +7252,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark) - 40%",
+      "name": "All Shades of Purple (Super Dark) - 40%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -7554,7 +7554,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark) - 45%",
+      "name": "All Shades of Purple (Super Dark) - 45%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -7856,7 +7856,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark) - 50%",
+      "name": "All Shades of Purple (Super Dark) - 50%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -8158,7 +8158,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark) - 55%",
+      "name": "All Shades of Purple (Super Dark) - 55%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -8460,7 +8460,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark) - 60%",
+      "name": "All Shades of Purple (Super Dark) - 60%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -8762,7 +8762,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark) - 65%",
+      "name": "All Shades of Purple (Super Dark) - 65%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -9064,7 +9064,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark) - 70%",
+      "name": "All Shades of Purple (Super Dark) - 70%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -9366,7 +9366,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark) - 75%",
+      "name": "All Shades of Purple (Super Dark) - 75%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -9668,7 +9668,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark, Bordered)",
+      "name": "All Shades of Purple (Super Dark, Bordered)",
       "appearance": "dark",
       "style": {
         "background.appearance": "opaque",
@@ -9970,7 +9970,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark, Bordered) - 05%",
+      "name": "All Shades of Purple (Super Dark, Bordered) - 05%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -10272,7 +10272,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark, Bordered) - 10%",
+      "name": "All Shades of Purple (Super Dark, Bordered) - 10%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -10574,7 +10574,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark, Bordered) - 15%",
+      "name": "All Shades of Purple (Super Dark, Bordered) - 15%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -10876,7 +10876,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark, Bordered) - 20%",
+      "name": "All Shades of Purple (Super Dark, Bordered) - 20%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -11178,7 +11178,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark, Bordered) - 25%",
+      "name": "All Shades of Purple (Super Dark, Bordered) - 25%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -11480,7 +11480,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark, Bordered) - 30%",
+      "name": "All Shades of Purple (Super Dark, Bordered) - 30%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -11782,7 +11782,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark, Bordered) - 35%",
+      "name": "All Shades of Purple (Super Dark, Bordered) - 35%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -12084,7 +12084,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark, Bordered) - 40%",
+      "name": "All Shades of Purple (Super Dark, Bordered) - 40%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -12386,7 +12386,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark, Bordered) - 45%",
+      "name": "All Shades of Purple (Super Dark, Bordered) - 45%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -12688,7 +12688,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark, Bordered) - 50%",
+      "name": "All Shades of Purple (Super Dark, Bordered) - 50%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -12990,7 +12990,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark, Bordered) - 55%",
+      "name": "All Shades of Purple (Super Dark, Bordered) - 55%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -13292,7 +13292,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark, Bordered) - 60%",
+      "name": "All Shades of Purple (Super Dark, Bordered) - 60%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -13594,7 +13594,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark, Bordered) - 65%",
+      "name": "All Shades of Purple (Super Dark, Bordered) - 65%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -13896,7 +13896,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark, Bordered) - 70%",
+      "name": "All Shades of Purple (Super Dark, Bordered) - 70%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -14198,7 +14198,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark, Bordered) - 75%",
+      "name": "All Shades of Purple (Super Dark, Bordered) - 75%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -14500,7 +14500,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Italic)",
+      "name": "All Shades of Purple (Italic)",
       "appearance": "dark",
       "style": {
         "background.appearance": "opaque",
@@ -14812,7 +14812,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Italic) - 05%",
+      "name": "All Shades of Purple (Italic) - 05%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -15124,7 +15124,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Italic) - 10%",
+      "name": "All Shades of Purple (Italic) - 10%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -15436,7 +15436,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Italic) - 15%",
+      "name": "All Shades of Purple (Italic) - 15%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -15748,7 +15748,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Italic) - 20%",
+      "name": "All Shades of Purple (Italic) - 20%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -16060,7 +16060,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Italic) - 25%",
+      "name": "All Shades of Purple (Italic) - 25%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -16372,7 +16372,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Italic) - 30%",
+      "name": "All Shades of Purple (Italic) - 30%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -16684,7 +16684,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Italic) - 35%",
+      "name": "All Shades of Purple (Italic) - 35%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -16996,7 +16996,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Italic) - 40%",
+      "name": "All Shades of Purple (Italic) - 40%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -17308,7 +17308,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Italic) - 45%",
+      "name": "All Shades of Purple (Italic) - 45%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -17620,7 +17620,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Italic) - 50%",
+      "name": "All Shades of Purple (Italic) - 50%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -17932,7 +17932,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Italic) - 55%",
+      "name": "All Shades of Purple (Italic) - 55%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -18244,7 +18244,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Italic) - 60%",
+      "name": "All Shades of Purple (Italic) - 60%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -18556,7 +18556,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Italic) - 65%",
+      "name": "All Shades of Purple (Italic) - 65%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -18868,7 +18868,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Italic) - 70%",
+      "name": "All Shades of Purple (Italic) - 70%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -19180,7 +19180,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Italic) - 75%",
+      "name": "All Shades of Purple (Italic) - 75%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -19492,7 +19492,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark + Italic)",
+      "name": "All Shades of Purple (Super Dark + Italic)",
       "appearance": "dark",
       "style": {
         "background.appearance": "opaque",
@@ -19804,7 +19804,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark + Italic) - 05%",
+      "name": "All Shades of Purple (Super Dark + Italic) - 05%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -20116,7 +20116,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark + Italic) - 10%",
+      "name": "All Shades of Purple (Super Dark + Italic) - 10%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -20428,7 +20428,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark + Italic) - 15%",
+      "name": "All Shades of Purple (Super Dark + Italic) - 15%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -20740,7 +20740,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark + Italic) - 20%",
+      "name": "All Shades of Purple (Super Dark + Italic) - 20%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -21052,7 +21052,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark + Italic) - 25%",
+      "name": "All Shades of Purple (Super Dark + Italic) - 25%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -21364,7 +21364,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark + Italic) - 30%",
+      "name": "All Shades of Purple (Super Dark + Italic) - 30%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -21676,7 +21676,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark + Italic) - 35%",
+      "name": "All Shades of Purple (Super Dark + Italic) - 35%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -21988,7 +21988,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark + Italic) - 40%",
+      "name": "All Shades of Purple (Super Dark + Italic) - 40%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -22300,7 +22300,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark + Italic) - 45%",
+      "name": "All Shades of Purple (Super Dark + Italic) - 45%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -22612,7 +22612,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark + Italic) - 50%",
+      "name": "All Shades of Purple (Super Dark + Italic) - 50%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -22924,7 +22924,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark + Italic) - 55%",
+      "name": "All Shades of Purple (Super Dark + Italic) - 55%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -23236,7 +23236,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark + Italic) - 60%",
+      "name": "All Shades of Purple (Super Dark + Italic) - 60%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -23548,7 +23548,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark + Italic) - 65%",
+      "name": "All Shades of Purple (Super Dark + Italic) - 65%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -23860,7 +23860,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark + Italic) - 70%",
+      "name": "All Shades of Purple (Super Dark + Italic) - 70%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -24172,7 +24172,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark + Italic) - 75%",
+      "name": "All Shades of Purple (Super Dark + Italic) - 75%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -24484,7 +24484,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark + Italic, Bordered)",
+      "name": "All Shades of Purple (Super Dark + Italic, Bordered)",
       "appearance": "dark",
       "style": {
         "background.appearance": "opaque",
@@ -24796,7 +24796,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark + Italic, Bordered) - 05%",
+      "name": "All Shades of Purple (Super Dark + Italic, Bordered) - 05%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -25108,7 +25108,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark + Italic, Bordered) - 10%",
+      "name": "All Shades of Purple (Super Dark + Italic, Bordered) - 10%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -25420,7 +25420,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark + Italic, Bordered) - 15%",
+      "name": "All Shades of Purple (Super Dark + Italic, Bordered) - 15%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -25732,7 +25732,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark + Italic, Bordered) - 20%",
+      "name": "All Shades of Purple (Super Dark + Italic, Bordered) - 20%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -26044,7 +26044,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark + Italic, Bordered) - 25%",
+      "name": "All Shades of Purple (Super Dark + Italic, Bordered) - 25%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -26356,7 +26356,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark + Italic, Bordered) - 30%",
+      "name": "All Shades of Purple (Super Dark + Italic, Bordered) - 30%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -26668,7 +26668,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark + Italic, Bordered) - 35%",
+      "name": "All Shades of Purple (Super Dark + Italic, Bordered) - 35%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -26980,7 +26980,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark + Italic, Bordered) - 40%",
+      "name": "All Shades of Purple (Super Dark + Italic, Bordered) - 40%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -27292,7 +27292,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark + Italic, Bordered) - 45%",
+      "name": "All Shades of Purple (Super Dark + Italic, Bordered) - 45%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -27604,7 +27604,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark + Italic, Bordered) - 50%",
+      "name": "All Shades of Purple (Super Dark + Italic, Bordered) - 50%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -27916,7 +27916,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark + Italic, Bordered) - 55%",
+      "name": "All Shades of Purple (Super Dark + Italic, Bordered) - 55%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -28228,7 +28228,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark + Italic, Bordered) - 60%",
+      "name": "All Shades of Purple (Super Dark + Italic, Bordered) - 60%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -28540,7 +28540,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark + Italic, Bordered) - 65%",
+      "name": "All Shades of Purple (Super Dark + Italic, Bordered) - 65%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -28852,7 +28852,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark + Italic, Bordered) - 70%",
+      "name": "All Shades of Purple (Super Dark + Italic, Bordered) - 70%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -29164,7 +29164,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark + Italic, Bordered) - 75%",
+      "name": "All Shades of Purple (Super Dark + Italic, Bordered) - 75%",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",

@@ -4,7 +4,7 @@
   "author": "whizzzkid <me@nishantarora.in>",
   "themes": [
     {
-      "name": "Shades of Purple",
+      "name": "All Shades of Purple",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -306,7 +306,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark)",
+      "name": "All Shades of Purple (Super Dark)",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -608,7 +608,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Italic)",
+      "name": "All Shades of Purple (Italic)",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
@@ -920,7 +920,7 @@
       }
     },
     {
-      "name": "Shades of Purple (Super Dark + Italic)",
+      "name": "All Shades of Purple (Super Dark + Italic)",
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",

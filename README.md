@@ -9,7 +9,7 @@
 
 Ported from the popular [Shades of Purple](https://github.com/ahmadawais/shades-of-purple-vscode) VS Code theme by Ahmad Awais.
 
-![Shades of Purple in Zed](screenshots/shades-of-purple.png)
+![All Shades of Purple in Zed](screenshots/shades-of-purple.png)
 
 ## Installation
 
@@ -21,29 +21,29 @@ Ported from the popular [Shades of Purple](https://github.com/ahmadawais/shades-
 
 ```json
 {
-  "theme": "Shades of Purple"
+  "theme": "All Shades of Purple"
 }
 ```
 
 ## Theme Variants
 
-### Shades of Purple (Standard)
+### All Shades of Purple (Standard)
 
 The original bold purple experience. Deep purple editor backgrounds (`#2D2B55`) with vibrant syntax colors.
 
-### Shades of Purple (Super Dark)
+### All Shades of Purple (Super Dark)
 
 For those who prefer even darker backgrounds. Editor background drops to `#191830` while keeping the same vibrant syntax highlighting.
 
-### Shades of Purple (Italic)
+### All Shades of Purple (Italic)
 
 Same colors as Standard, with italic styling on keywords, comments, properties, attributes, and other semantic tokens. Pairs beautifully with fonts that have cursive italics (Operator Mono, Dank Mono, Cartograph CF, etc.).
 
-### Shades of Purple (Super Dark + Italic)
+### All Shades of Purple (Super Dark + Italic)
 
 The best of both worlds: ultra-dark backgrounds from Super Dark combined with the italic styling from the Italic variant.
 
-### Shades of Purple (Super Dark, Bordered) / (Super Dark + Italic, Bordered)
+### All Shades of Purple (Super Dark, Bordered) / (Super Dark + Italic, Bordered)
 
 Super Dark and Super Dark + Italic with high-contrast outlines: `#6943FF` purple borders on docks, sidebars, tab bars,
 title and status bars, muted `#A599E9` dividers, and `#FAD000` yellow on focused elements and the active pane.

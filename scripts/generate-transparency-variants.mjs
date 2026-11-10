@@ -33,7 +33,7 @@ const FIXED_ALPHA_KEYS = new Set([
   "ghost_element.selected",
 ]);
 
-const BORDERED_BASE_NAMES = new Set(["Shades of Purple (Super Dark)", "Shades of Purple (Super Dark + Italic)"]);
+const BORDERED_BASE_NAMES = new Set(["All Shades of Purple (Super Dark)", "All Shades of Purple (Super Dark + Italic)"]);
 // Zed's `border` key draws dock and sidebar edges, tab bars, title bar, status bar and list dividers, so the
 // bordered flavor outlines all of them. Borders aren't alpha-scaled, so these hold in every transparency level.
 const BORDERED_STYLE_OVERRIDES = {
