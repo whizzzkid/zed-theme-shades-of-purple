@@ -61,7 +61,7 @@ The best of both worlds: ultra-dark backgrounds from Super Dark combined with th
 | ![](https://img.shields.io/badge/%20-B362FF?style=flat-square&color=B362FF) | `#B362FF` | Comments |
 | ![](https://img.shields.io/badge/%20-80FFBB?style=flat-square&color=80FFBB) | `#80FFBB` | Enums / Support |
 | ![](https://img.shields.io/badge/%20-E1EFFF?style=flat-square&color=E1EFFF) | `#E1EFFF` | Variables / Punctuation |
-| ![](https://img.shields.io/badge/%20-6943FF?style=flat-square&color=6943FF) | `#6943FF` | Info / Hints |
+| ![](https://img.shields.io/badge/%20-6943FF?style=flat-square&color=6943FF) | `#6943FF` | Info / Hints / Selected and hovered rows |
 | ![](https://img.shields.io/badge/%20-EC3A37?style=flat-square&color=EC3A37) | `#EC3A37` | Errors / Deleted |
 | ![](https://img.shields.io/badge/%20-FF7200?style=flat-square&color=FF7200) | `#FF7200` | Conflicts / Search Match |
 

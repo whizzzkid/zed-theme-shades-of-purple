@@ -8,18 +8,29 @@ const VARIANT_SUFFIX_RE = / - \d{1,2}%$/;
 const BASE_TEMPLATE_PATH = path.resolve(process.cwd(), "scripts", "base-templates.json");
 const OUTPUT_THEME_PATH = path.resolve(process.cwd(), "themes", "shades-of-purple.json");
 const PANEL_STACK_ALPHA_FACTOR = 0.72;
-const PANEL_STACK_KEYS = new Set([
-  "panel.background",
-  "surface.background",
-  "elevated_surface.background",
-  "drop_target.background",
-  "element.background",
+// Zed paints panel.background three times in the agent panel (dock, panel, conversation view) but once under
+// the threads sidebar, so one alpha can't suit both. 0.315 puts the 20% variant at 0x40, the tested balance.
+const PANEL_BACKGROUND_ALPHA_FACTOR = 0.315;
+// The terminal view already sits on an editor.background fill, so its own fill only adds opacity.
+const TERMINAL_BACKGROUND_ALPHA_FACTOR = 0;
+// Per-key alpha multipliers applied on top of the main scaling in translucent variants only.
+const TRANSLUCENT_ALPHA_FACTORS = new Map([
+  ["panel.background", PANEL_BACKGROUND_ALPHA_FACTOR],
+  ["terminal.background", TERMINAL_BACKGROUND_ALPHA_FACTOR],
+  ["surface.background", PANEL_STACK_ALPHA_FACTOR],
+  ["elevated_surface.background", PANEL_STACK_ALPHA_FACTOR],
+  ["drop_target.background", PANEL_STACK_ALPHA_FACTOR],
+  ["element.background", PANEL_STACK_ALPHA_FACTOR],
+  ["element.disabled", PANEL_STACK_ALPHA_FACTOR],
+  ["ghost_element.disabled", PANEL_STACK_ALPHA_FACTOR],
+]);
+// Selection and hover highlights (list rows, project panel entries, threads) keep their template alpha in every
+// variant; scaling them with the background made the active row invisible against translucent panels.
+const FIXED_ALPHA_KEYS = new Set([
   "element.hover",
   "element.selected",
-  "element.disabled",
   "ghost_element.hover",
   "ghost_element.selected",
-  "ghost_element.disabled",
 ]);
 
 function parseHexColor(color) {
@@ -68,6 +79,8 @@ function shouldScaleColor(pathSegments) {
   if (flattenedPath.length === 0) return false;
 
   const fullPath = flattenedPath.join(".");
+  if (FIXED_ALPHA_KEYS.has(fullPath)) return false;
+
   const key = flattenedPath[flattenedPath.length - 1];
 
   if (key === "background") return true;
@@ -89,8 +102,8 @@ function flattenPath(pathSegments) {
   return flattenedPath;
 }
 
-function isPanelStackKey(pathSegments) {
-  return PANEL_STACK_KEYS.has(flattenPath(pathSegments).join("."));
+function translucentAlphaFactorOf(pathSegments) {
+  return TRANSLUCENT_ALPHA_FACTORS.get(flattenPath(pathSegments).join("."));
 }
 
 function rewriteNode(node, pathSegments, targetMainAlpha, templateMainAlpha) {
@@ -116,8 +129,9 @@ function rewriteNode(node, pathSegments, targetMainAlpha, templateMainAlpha) {
 
     // Side panels have multiple overlapping surfaces (panel + surface + element),
     // so reduce per-layer alpha to keep perceived transparency aligned with bars.
-    if (targetMainAlpha < 255 && isPanelStackKey(pathSegments)) {
-      alpha = clamp(Math.round(alpha * PANEL_STACK_ALPHA_FACTOR), 0, 255);
+    const translucentAlphaFactor = translucentAlphaFactorOf(pathSegments);
+    if (targetMainAlpha < 255 && translucentAlphaFactor !== undefined) {
+      alpha = clamp(Math.round(alpha * translucentAlphaFactor), 0, 255);
     }
 
     return `#${parsed.rgb}${toHex(alpha)}`;
