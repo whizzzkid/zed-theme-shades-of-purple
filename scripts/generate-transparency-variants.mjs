@@ -33,6 +33,17 @@ const FIXED_ALPHA_KEYS = new Set([
   "ghost_element.selected",
 ]);
 
+const BORDERED_BASE_NAMES = new Set(["Shades of Purple (Super Dark)", "Shades of Purple (Super Dark + Italic)"]);
+// Zed's `border` key draws dock and sidebar edges, tab bars, title bar, status bar and list dividers, so the
+// bordered flavor outlines all of them. Borders aren't alpha-scaled, so these hold in every transparency level.
+const BORDERED_STYLE_OVERRIDES = {
+  border: "#6943FF",
+  "border.variant": "#A599E980",
+  "border.focused": "#FAD000",
+  "border.selected": "#FAD000",
+  "pane.focused_border": "#FAD000",
+};
+
 function parseHexColor(color) {
   if (typeof color !== "string") return null;
 
@@ -160,12 +171,41 @@ function assertBaseTemplates(baseDoc) {
   }
 }
 
+function borderedNameOf(name) {
+  const PAREN_SUFFIX_RE = /\)$/;
+  if (!PAREN_SUFFIX_RE.test(name)) {
+    throw new Error(`Bordered base must end with a parenthesised flavor: ${name}`);
+  }
+  return name.replace(PAREN_SUFFIX_RE, ", Bordered)");
+}
+
+// Each bordered base follows its source template so the bordered flavor inherits every palette fix.
+function expandBorderedTemplates(templates) {
+  const templateNames = new Set(templates.map((template) => template.name));
+  const missing = [...BORDERED_BASE_NAMES].filter((name) => !templateNames.has(name));
+  if (missing.length > 0) {
+    throw new Error(`Bordered base template not found: ${missing.join(", ")}`);
+  }
+
+  const expanded = [];
+  for (const template of templates) {
+    expanded.push(template);
+    if (!BORDERED_BASE_NAMES.has(template.name)) continue;
+
+    const bordered = structuredClone(template);
+    bordered.name = borderedNameOf(template.name);
+    Object.assign(bordered.style, BORDERED_STYLE_OVERRIDES);
+    expanded.push(bordered);
+  }
+  return expanded;
+}
+
 function generateVariants(baseDoc) {
   assertBaseTemplates(baseDoc);
 
   const generated = [];
 
-  for (const template of baseDoc.themes) {
+  for (const template of expandBorderedTemplates(baseDoc.themes)) {
     const baseName = baseNameOf(template.name);
     const parsedTemplateBackground = parseHexColor(template.style.background);
     const templateMainAlpha = parsedTemplateBackground?.alpha ?? 0xff;

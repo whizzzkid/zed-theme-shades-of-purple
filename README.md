@@ -43,6 +43,16 @@ Same colors as Standard, with italic styling on keywords, comments, properties, 
 
 The best of both worlds: ultra-dark backgrounds from Super Dark combined with the italic styling from the Italic variant.
 
+### Shades of Purple (Super Dark, Bordered) / (Super Dark + Italic, Bordered)
+
+Super Dark and Super Dark + Italic with high-contrast outlines: `#6943FF` purple borders on docks, sidebars, tab bars,
+title and status bars, muted `#A599E9` dividers, and `#FAD000` yellow on focused elements and the active pane.
+
+### Transparency levels
+
+Every variant ships at 16 transparency levels (`- 05%` to `- 75%`) with a blurred window background. The unsuffixed
+name is fully opaque.
+
 ## Color Palette
 
 | Color | Hex | Usage |
