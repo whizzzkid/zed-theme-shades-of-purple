@@ -1,4 +1,4 @@
-# Shades of Purple for Zed
+# All Shades of Purple for Zed
 
 [![CI](https://github.com/whizzzkid/zed-theme-shades-of-purple/actions/workflows/ci.yml/badge.svg)](https://github.com/whizzzkid/zed-theme-shades-of-purple/actions/workflows/ci.yml)
 [![GitHub stars](https://img.shields.io/github/stars/whizzzkid/zed-theme-shades-of-purple)](https://github.com/whizzzkid/zed-theme-shades-of-purple/stargazers)
@@ -15,7 +15,7 @@ Ported from the popular [Shades of Purple](https://github.com/ahmadawais/shades-
 
 1. Open Zed
 2. Open the Extensions panel (`Cmd+Shift+X` or `Zed > Extensions`)
-3. Search for "Shades of Purple"
+3. Search for "All Shades of Purple"
 4. Click **Install**
 5. Open your settings and set your preferred variant:
 
