@@ -14,7 +14,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Install jsonschema-cli
-        run: cargo install jsonschema-cli
+        run: cargo install jsonschema-cli --version 0.44.1 --locked
 
       - name: Download Zed theme schema
         run: curl -sL https://zed.dev/schema/themes/v0.2.0.json -o /tmp/zed-theme-schema.json
